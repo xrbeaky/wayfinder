@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Info
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1352, y: -440}
+  position: {x: 1416, y: -456}
   ports:
     keys:
     - entry
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1128, y: 136}
+  position: {x: 1192, y: 120}
   ports:
     keys:
     - entry
@@ -93,7 +93,6 @@ MonoBehaviour:
   exit: 0
   speaker: {fileID: 0}
   dialogueLine: 
-  characterImage: {fileID: 21300000, guid: f672e153364daf64eadb53e1bb5eacae, type: 3}
 --- !u!114 &-7197614698735782234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,7 +106,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 56, y: -504}
+  position: {x: 72, y: -472}
   ports:
     keys:
     - entry
@@ -142,7 +141,6 @@ MonoBehaviour:
   speaker: {fileID: 11400000, guid: 813ac453c5b925c4d8d110001fff8b7c, type: 2}
   dialogueLine: Greetings youngling, welcome to my Space Dojo! Feel free to grab
     yourself a drink and prepare for our duel!
-  characterImage: {fileID: 21300000, guid: 765842d9f2112974999fd97a06a4bd9b, type: 3}
 --- !u!114 &-6657026867585828041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,7 +154,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 888, y: 136}
+  position: {x: 952, y: 120}
   ports:
     keys:
     - entry
@@ -190,7 +188,6 @@ MonoBehaviour:
   exit: 0
   speaker: {fileID: 11400000, guid: 357718177d04d7a46b64b46a7f4d46fe, type: 2}
   dialogueLine: You don't stand a chance! Feel my wrath!
-  characterImage: {fileID: 21300000, guid: f672e153364daf64eadb53e1bb5eacae, type: 3}
 --- !u!114 &-6345129695820626234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,7 +201,7 @@ MonoBehaviour:
   m_Name: Choice
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 536, y: -488}
+  position: {x: 632, y: -456}
   ports:
     keys:
     - entry
@@ -302,7 +299,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 280, y: -504}
+  position: {x: 296, y: -472}
   ports:
     keys:
     - entry
@@ -336,7 +333,6 @@ MonoBehaviour:
   exit: 0
   speaker: {fileID: 11400000, guid: 357718177d04d7a46b64b46a7f4d46fe, type: 2}
   dialogueLine: You should be the one preparing for the spar, it may be your last!
-  characterImage: {fileID: 21300000, guid: f672e153364daf64eadb53e1bb5eacae, type: 3}
 --- !u!114 &-3296252747666150590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,7 +346,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1128, y: -152}
+  position: {x: 1192, y: -168}
   ports:
     keys:
     - entry
@@ -384,7 +380,6 @@ MonoBehaviour:
   exit: 0
   speaker: {fileID: 0}
   dialogueLine: 
-  characterImage: {fileID: 21300000, guid: f672e153364daf64eadb53e1bb5eacae, type: 3}
 --- !u!114 &-96499810089616493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -398,7 +393,7 @@ MonoBehaviour:
   m_Name: Start
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -168, y: -504}
+  position: {x: -152, y: -472}
   ports:
     keys:
     - exit
@@ -440,7 +435,7 @@ MonoBehaviour:
   - {fileID: -8810618054747487849}
   - {fileID: -6657026867585828041}
   - {fileID: -7879569180719568521}
-  current: {fileID: -7197614698735782234}
+  current: {fileID: -3296252747666150590}
 --- !u!114 &2714838483518147022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -454,7 +449,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 888, y: -152}
+  position: {x: 952, y: -168}
   ports:
     keys:
     - entry
@@ -488,7 +483,6 @@ MonoBehaviour:
   exit: 0
   speaker: {fileID: 11400000, guid: 357718177d04d7a46b64b46a7f4d46fe, type: 2}
   dialogueLine: Think about the wife and kids. They will miss you after our duel.
-  characterImage: {fileID: 21300000, guid: f672e153364daf64eadb53e1bb5eacae, type: 3}
 --- !u!114 &5060347238545891518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -502,7 +496,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1128, y: -440}
+  position: {x: 1192, y: -456}
   ports:
     keys:
     - entry
@@ -536,7 +530,6 @@ MonoBehaviour:
   exit: 0
   speaker: {fileID: 0}
   dialogueLine: 
-  characterImage: {fileID: 21300000, guid: f672e153364daf64eadb53e1bb5eacae, type: 3}
 --- !u!114 &9127496169408945552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -550,7 +543,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 888, y: -440}
+  position: {x: 952, y: -456}
   ports:
     keys:
     - entry
@@ -584,4 +577,3 @@ MonoBehaviour:
   exit: 0
   speaker: {fileID: 11400000, guid: 357718177d04d7a46b64b46a7f4d46fe, type: 2}
   dialogueLine: Let's tango! I'll take you with my eyes closed!
-  characterImage: {fileID: 21300000, guid: f672e153364daf64eadb53e1bb5eacae, type: 3}
